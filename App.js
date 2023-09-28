@@ -21,7 +21,7 @@ function reducer(state, {type, payload}) {
                  //This is where an error occurs in the program. The currentOperand is null (until defined through the click of a user), however the || should allow for a null value to be converted into an empty string, hence I don't know why I keep getting the error that currentOperand is undefined.
                 ...state,
                 currentOperand: `${ currentOperand || ""}${payload.digit}`, //--> Possible fix, maybe include if statement beforehand that if currentOperand is null, convert to empty string? But I already tried assigning a previous value and still doesn't work... could the error be in the button file?
-            }
+            } //Why does this parse as a null value?
     }
 }
 
