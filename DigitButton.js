@@ -1,4 +1,4 @@
-//Code for any operator/action button
+//Code for any operator button
 
 import { ACTIONS } from "./App"
 
