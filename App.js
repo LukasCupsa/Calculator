@@ -1,4 +1,4 @@
-//Main body of code for calculator app
+//Main body of code for calculator
 import { useReducer } from "react"
 import DigitButton from "./DigitButton"
 import OperationButton from "./OperationButton"
